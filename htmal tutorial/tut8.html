@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h2>THIS IS HTML forms tutorial</h2>
+    <!-- form+enter =  <form action=""></form> -->
+    <form action="backend.php">
+        <!-- label= <label for="id"></label> -->
+        <!-- for=id=name=roll=email. etc. -->
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myname" id="name">
+        </div><br>
+        <label for="roll">Roll number</label>
+        <div>
+            <input type="text" name="myrollno" id="roll">
+        </div><br>
+        <label for="email">Email id</label>
+        <div>
+            <input type="text" name="myemail" id="email">
+        </div><br>
+        <label for="da">Date</label>
+        <div>
+            <input type="date" name="my date" id="da">
+        </div><br>
+        <label for="bo">Bonus</label>
+        <div>
+            <input type="number" name="my number" id="bo">
+        </div><br>
+        <label for="are ">Are you eligible</label>
+        <div>
+            <!-- checked mean chack box allready checked -->
+            <input type="checkbox" name="qualification" id="are" checked>
+        </div><br>
+        <label for="gend">Gender</label>
+        <div>
+            Male <input type="radio" name="mygender" id="gend">
+            Female <input type="radio" name="mygender" id="gend">
+            other <input type="radio" name="mygender" id="gend">
+        </div><br>
+        <label for="car">Car</label>
+        <div>
+            <!-- select me option ko btayenge -->
+            <!-- selected mean already selected -->
+            <select name="mycar" id="car">
+                <option value="ind">indica</option>
+                <option value="select" selected>option</option>
+                <option value="swft">swift</option>
+                <option value="bln">boleno</option>
+            </select>
+        </div>
+        <label for=""></label>
+        <div>
+            <div>
+                write about your self <br> <textarea name="text" id="" cols="60" rows="10"></textarea>
+            </div> <br>
+            <div>
+                <input type="submit" value="submit now">
+            </div><br>
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+</body>
+
+</html>

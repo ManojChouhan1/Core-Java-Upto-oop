@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .navbar {
+            background-color: black;
+            border-radius: 30px;
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            /* bulllet ko list-style se hataya jayega */
+            list-style: none;
+            margin: 6px 20px;
+
+
+        }
+
+
+        .navbar li a {
+            padding: 3px 3px;
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .navbar input {
+            border: 2px solid red;
+            border-radius: 40px;
+            padding: 6px 17px;
+            width: 129px;
+        }
+
+        .search {
+            float: right;
+            color: white;
+            margin: 7px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">HOme </a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">service </a></li>
+                <li><a href="#">Contact us </a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search this webside">
+                </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: cursive;
+        }
+
+        .container {
+
+            width: 900px;
+            border: 3px solid purple;
+            margin: 13px auto;
+            background-color: powderblue;
+            /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+        }
+
+        .item {
+            border: 4px solid red;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(21, 207, 21);
+
+        }
+
+        #fruit {
+            float: left;
+            width: 49%;
+
+        }
+
+        #computer {
+            float: left;
+            width: 49%;
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: both;
+            width: 99%;
+        }
+
+        #glass {
+            /* float: left; */
+            clear: both;
+            width: 99%;
+        }
+
+        p,
+        h3 {
+            /* text-align: left;
+            text-align: right;
+            text-align: center; */
+            text-align: justify;
+        }
+
+        h1 {
+            margin: 10px auto;
+            width: 455px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>WELCOME TO MY STORE</h1>
+        <div id="fruit" class="item">
+            <h3>FRUIT</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, doloribus
+                doloremque ullam accusantium dolores consequatur facere dolorem ducimus mollitia fugit quis natus eaque
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, recusandae. Sint dignissimos voluptates
+                numquam quos. Ut laudantium debitis, doloribus ipsa eos itaque consequuntur earum aut corrupti impedit
+                eum alias incidunt.
+                consectetur quos et sed voluptatum quae? Laudantium nobis assumenda quidem expedita!</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>COMPUTER</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,Lorem
+                ipsum dolor sit amet consectetur, adipisicing elit. Saepe natus quae quidem quo quos repellat possimus
+                asperiores, doloremque iusto? Ea, laborum earum. Dicta atque consequatur, officia iure labore placeat
+                praesentium!
+                doloribus doloremque ullam accusantium dolores consequatur facere dolorem ducimus mollitia fugit quis
+                natus eaque consectetur quos et sed voluptatum quae? Laudantium nobis assumenda quidem expedita!</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>STATIONARY</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                doloribus doloremque ullam accusantium dolores consequatur facere dolorem ducimus mollitia fugit quis
+                natus eaque consectetur quos et sed voluptatum quae? Laudantium nobis assumenda quidem expedita!</p>
+        </div>
+
+        <div id="glass" class="item">
+            <h3>GLASS</h3>
+            <p id="glasspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+                doloribus doloremque ullam accusantium dolores consequatur facere dolorem ducimus mollitia fugit quis
+                natus eaque consectetur quos et sed voluptatum quae? Laudantium nobis assumenda quidem expedita!</p>
+        </div>
+    </div>
+</body>
+
+</html>
